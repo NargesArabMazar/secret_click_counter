@@ -1,6 +1,6 @@
 name: special_click_counter
 description: A Flutter package to count clicks and show developers' names after 40 clicks.
-version: 0.0.2
+version: 1.0.0
 homepage: https://github.com/Nargesarabmazar/secret_click_counter
 repository: https://github.com/Nargesarabmazar/secret_click_counter
 

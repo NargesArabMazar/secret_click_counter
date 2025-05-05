@@ -1,15 +1,27 @@
-Secret Click Counter
-A Flutter package that counts clicks on any widget and displays a dialog with encrypted developers' names after 40 clicks.
-Installation
-Add the package to your pubspec.yaml:
+# Secret Click Counter
+
+A Flutter package that counts clicks on any widget and shows a dialog with developers' names after 40 clicks.
+
+## Installation
+
+Add the following to your `pubspec.yaml`:
+
+```yaml
 dependencies:
   secret_click_counter: ^1.0.0
+```
 
-Then run the following command to fetch the package:
+Then run:
+
+```bash
 flutter pub get
+```
 
-Usage
-To use the package, wrap any widget with a GestureDetector and call SecretClickCounter().handleClick(context) on tap. Below is a complete example:
+## Usage
+
+Wrap any widget with a `GestureDetector` and call `SecretClickCounter().handleClick(context)` on tap. Here's an example:
+
+```dart
 import 'package:flutter/material.dart';
 import 'package:secret_click_counter/secret_click_counter.dart';
 
@@ -45,14 +57,10 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+```
 
-Features
+## Features
 
-Click Counting: Triggers a dialog after exactly 40 clicks.
-Security: Developers' names are encrypted for protection.
-Flexibility: Easily integrates with any Flutter widget.
-
-Contributing
-Contributions are welcome! Please submit a pull request or open an issue on the GitHub repository.
-License
-This package is licensed under the MIT License. See the LICENSE file for details.
+- Counts clicks and shows a dialog after 40 clicks.
+- Encrypts developers' names for security.
+- Easy to integrate with any Flutter widget.
