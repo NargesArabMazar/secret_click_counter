@@ -1,7 +1,7 @@
 Secret Click Counter
 A Flutter package that counts clicks on any widget and shows a dialog with developers' names after 40 clicks.
 Installation
-Add this to your pubspec.yaml:
+Add the following to your pubspec.yaml:
 dependencies:
   secret_click_counter: ^1.0.0
 
@@ -9,7 +9,7 @@ Then run:
 flutter pub get
 
 Usage
-Wrap any widget with a GestureDetector and call SecretClickCounter().handleClick(context) on tap:
+Wrap any widget with a GestureDetector and call SecretClickCounter().handleClick(context) on tap. Here's an example:
 import 'package:flutter/material.dart';
 import 'package:secret_click_counter/secret_click_counter.dart';
 
